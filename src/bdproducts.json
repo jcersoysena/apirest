@@ -1,0 +1,17 @@
+[
+    {
+        "id":"1", 
+        "nombreProd":"Agua mineral",
+        "cantidad":"50",
+        "precio":"5200",
+        "estado":"activo"
+    },
+    
+    {
+        "id":"2", 
+        "nombreProd":"leche",
+        "cantidad":"200",
+        "precio":"3200",
+        "estado":"activo"
+    }
+]
