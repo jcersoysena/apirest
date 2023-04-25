@@ -14,7 +14,7 @@ router.post('/', (req, res) =>{
     const id = productos.length + 1; 
     if (nombreProd, cantidad, precio, estado) {
         const newProduct = {...req.body, id};
-        productos.push(newProduct):
+        productos.push(newProduct);
         res.json(productos);
        } else{
         res.status(500).json({error: 'posible error.'});
