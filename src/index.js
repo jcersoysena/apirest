@@ -13,5 +13,5 @@ app.use(require('./routes/index'));
 app.use('/api/products', require('./routes/products'));
 
 app.listen(app.get('port'), () => {
-console.log("Server on port ${app.get('port')}");
+console.log(`Server on port ${port.get('port')}`);
 });
