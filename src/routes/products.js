@@ -6,7 +6,7 @@ const metodito = require('underscore');
 const productos = require('../bdproducts.json');
 
 router.get('/', (req, res) =>{
-    res.json(productos)
+    res.json(productos);
 });
 
 router.post('/', (req, res) =>{
